@@ -1,14 +1,26 @@
-package subscribers;
+package pubsub.subscribers;
 
-import java.util.List;
+import pubsub.publishers.MultiplatformApps;
 
-/**
- * Created by Majid on 07-Apr-17.
- */
+
 public abstract class Device {
 
-    public void receiveNotification(String notification){
-        System.out.println(this.getClass().toString() + " : " + notification);
+    String deviceName;
+
+    public Device() {
+        deviceName = getClass().getSimpleName();
+    }
+
+    public void receiveNotification(String notification) {
+        System.out.println(deviceName + " : " + notification);
+    }
+
+    public void subscribe(MultiplatformApps apps) {
+        apps.addDevices(this);
+    }
+
+    public void unsubscribe(MultiplatformApps apps) {
+        apps.removeDevies(this);
     }
 
 }

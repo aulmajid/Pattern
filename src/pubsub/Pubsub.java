@@ -1,15 +1,20 @@
-import publishers.Facebook;
+package pubsub;
 
-/**
- * Created by Majid on 07-Apr-17.
- */
+import pubsub.publishers.Facebook;
+import pubsub.subscribers.Phone;
+
+
 public class Pubsub {
 
     public static void main(String[] args) {
 
         Facebook facebook = new Facebook();
+        Phone phone = new Phone();
 
+        phone.subscribe(facebook);
+        facebook.sendNotification("Hai");
 
+        facebook.printDevices();
     }
 
 }

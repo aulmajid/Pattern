@@ -1,28 +1,42 @@
-package publishers;
+package pubsub.publishers;
 
-import subscribers.Device;
+import pubsub.subscribers.Device;
 
+import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Majid on 07-Apr-17.
- */
+
 public abstract class MultiplatformApps {
 
+    String appName;
     List<Device> devices;
 
-    public void subscribe(Device device){
+    public MultiplatformApps() {
+        appName = getClass().getSimpleName();
+        devices = new ArrayList<Device>();
+    }
+
+    public void addDevices(Device device) {
         devices.add(device);
     }
 
-    public void unsubscribe(Device device){
+    public void removeDevies(Device device) {
         devices.remove(device);
     }
 
-    public void sendNotification(String notification){
-        for(Device device:devices){
-            device.receiveNotification(notification);
+    public void sendNotification(String message) {
+        System.out.println();
+        System.out.println(appName + " : " + message);
+        for (Device device : devices) {
+            device.receiveNotification("(" + appName + ") " + message);
         }
     }
 
+    public void printDevices() {
+        System.out.println();
+        System.out.println(appName + " registered device(s) : ");
+        for (Device device : devices) {
+            System.out.println(device.getClass().getSimpleName());
+        }
+    }
 }
