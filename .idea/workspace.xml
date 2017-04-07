@@ -5,9 +5,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pubsub/Pubsub.java" afterPath="$PROJECT_DIR$/src/pubsub/Pubsub.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pubsub/publishers/Facebook.java" afterPath="$PROJECT_DIR$/src/pubsub/publishers/Facebook.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pubsub/publishers/MultiplatformApps.java" afterPath="$PROJECT_DIR$/src/pubsub/publishers/MultiplatformApps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pubsub/subscribers/Device.java" afterPath="$PROJECT_DIR$/src/pubsub/subscribers/Device.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pubsub/subscribers/Phone.java" afterPath="$PROJECT_DIR$/src/pubsub/subscribers/Phone.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pubsub/subscribers/Tablet.java" afterPath="$PROJECT_DIR$/src/pubsub/subscribers/Tablet.java" />
     </list>
     <ignored path="Pattern.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,12 +27,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Steam.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pubsub/publishers/Steam.java">
+      <file leaf-file-name="Pubsub.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pubsub/Pubsub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="225">
+              <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="60" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,98 +42,24 @@
       <file leaf-file-name="Device.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pubsub/subscribers/Device.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Facebook.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pubsub/publishers/Facebook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
               <folding>
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#276#277#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pc.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pubsub/subscribers/Pc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Phone.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pubsub/subscribers/Phone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tablet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pubsub/subscribers/Tablet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tv.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pubsub/subscribers/Tv.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pubsub.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pubsub/Pubsub.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultiplatformApps.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pubsub/publishers/MultiplatformApps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MangaReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pubsub/publishers/MangaReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gmail.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pubsub/publishers/Gmail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -163,17 +90,17 @@
         <option value="$PROJECT_DIR$/src/publishers/MultiplatformApps.java" />
         <option value="$PROJECT_DIR$/src/publishers/Facebook.java" />
         <option value="$PROJECT_DIR$/src/Pubsub.java" />
-        <option value="$PROJECT_DIR$/src/pubsub/publishers/Facebook.java" />
         <option value="$PROJECT_DIR$/src/pubsub/publishers/Calendar.java" />
         <option value="$PROJECT_DIR$/src/pubsub/publishers/Gmail.java" />
         <option value="$PROJECT_DIR$/src/pubsub/publishers/MangaReader.java" />
         <option value="$PROJECT_DIR$/src/pubsub/publishers/MultiplatformApps.java" />
         <option value="$PROJECT_DIR$/src/pubsub/publishers/Steam.java" />
-        <option value="$PROJECT_DIR$/src/pubsub/subscribers/Device.java" />
         <option value="$PROJECT_DIR$/src/pubsub/subscribers/Pc.java" />
         <option value="$PROJECT_DIR$/src/pubsub/subscribers/Phone.java" />
-        <option value="$PROJECT_DIR$/src/pubsub/subscribers/Tablet.java" />
         <option value="$PROJECT_DIR$/src/pubsub/subscribers/Tv.java" />
+        <option value="$PROJECT_DIR$/src/pubsub/subscribers/Tablet.java" />
+        <option value="$PROJECT_DIR$/src/pubsub/publishers/Facebook.java" />
+        <option value="$PROJECT_DIR$/src/pubsub/subscribers/Device.java" />
         <option value="$PROJECT_DIR$/src/pubsub/Pubsub.java" />
       </list>
     </option>
@@ -600,7 +527,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -609,7 +536,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39906833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -695,14 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pubsub/publishers/Facebook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pubsub/publishers/Gmail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -721,8 +640,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pubsub/publishers/MultiplatformApps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#377#378#0" expanded="true" />
@@ -731,29 +650,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pubsub/publishers/Steam.java">
+    <entry file="file://$PROJECT_DIR$/src/pubsub/subscribers/Tablet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pubsub/subscribers/Device.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pubsub/subscribers/Pc.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -766,7 +666,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pubsub/subscribers/Tablet.java">
+    <entry file="file://$PROJECT_DIR$/src/pubsub/subscribers/Pc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pubsub/publishers/Steam.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -776,16 +684,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pubsub/subscribers/Tv.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pubsub/publishers/Facebook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding>
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pubsub/subscribers/Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pubsub/Pubsub.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="60" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

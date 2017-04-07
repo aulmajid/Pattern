@@ -15,11 +15,11 @@ public abstract class Device {
         System.out.println(deviceName + " : " + notification);
     }
 
-    public void subscribe(MultiplatformApps apps) {
+    public void install(MultiplatformApps apps) {
         apps.addDevices(this);
     }
 
-    public void unsubscribe(MultiplatformApps apps) {
+    public void uninstall(MultiplatformApps apps) {
         apps.removeDevies(this);
     }
 

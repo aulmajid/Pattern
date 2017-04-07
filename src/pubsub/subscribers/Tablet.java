@@ -1,5 +1,5 @@
 package pubsub.subscribers;
 
 
-public class Tablet {
+public class Tablet extends Device {
 }
