@@ -2,5 +2,5 @@
 
 Design Pattern Example
 - Publish-subscribe pattern
-- ... pattern
+- Visitor pattern
 - ... pattern
